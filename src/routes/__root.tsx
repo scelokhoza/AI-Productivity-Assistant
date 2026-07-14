@@ -81,10 +81,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "AI-powered workplace productivity tools: smart email drafting, meeting summaries, task planning, and research — all in one assistant." },
       { name: "author", content: "FlowMind" },
       { property: "og:title", content: "FlowMind — AI Workplace Productivity Assistant" },
-      { property: "og:description", content: "AI-powered workplace productivity tools in one clean workspace." },
+      { property: "og:description", content: "AI-powered workplace productivity tools: smart email drafting, meeting summaries, task planning, and research — all in one assistant." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "FlowMind — AI Workplace Productivity Assistant" },
+      { name: "twitter:description", content: "AI-powered workplace productivity tools: smart email drafting, meeting summaries, task planning, and research — all in one assistant." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/mvPwIDhFBUXnl3NNvu54b4e13ng1/social-images/social-1784025790253-Designer.webp" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/mvPwIDhFBUXnl3NNvu54b4e13ng1/social-images/social-1784025790253-Designer.webp" },
     ],
     links: [
       {
